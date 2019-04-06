@@ -1,5 +1,5 @@
 body{
-			background-image: url("images/edu.jpg");
+			background-image: url("images/back2.jpg");
 			background-repeat: no-repeat center fixed; 
 	  		background-size: cover;	
 		}
@@ -47,11 +47,14 @@ body{
 	  list-style-type: none;
 	  margin: 0;
 	  padding: 0;
+	  margin-left: -8px;
 	  overflow: hidden;
 	  background-color: #333333;
 	  position: fixed;
  	  top: 0;
   	  width: 100%;
+  	  font-size: 18px;
+
 	}
 
 	 .hori-menu-li {
@@ -91,7 +94,7 @@ div.transbox h1 {
   	background-color: #eee;
   	border: 1px solid black;
   	opacity: 1;
-  	width: 1050px;
+  	width: 78%;
 }
 
 
@@ -154,10 +157,10 @@ div.transbox h1 {
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-	
 	bottom: 0;
 	padding: 45px 50px;
 	margin-top: 80px;
+	margin-left: -8px;
 }
 .footer-distributed .footer-left p{
 	color:  #8f9296;
@@ -191,11 +194,48 @@ div.transbox h1 {
 	height: 35px;
 	background-color:  #33383b;
 	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-left: 3px;
+}
+
+
+
+/*----------Add college-------*/
+.addclg input{
+	width: 400px;
+	padding: 10px;
+	border-radius: 8px;
+	border-style: groove;
+}
+
+/*Show colleges predict table*/
+table#t01 {
+  width: 100%;
+  padding: 5px;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+table, th, td {
+	
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+.scrollit {
+    overflow:scroll;
+    height:500px;
 }
